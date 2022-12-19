@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="image/x-icon" href="images/pic-logo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="sidebar">
+            <!--================Navbar====================-->
+            <nav>
+                <div id="mySidebar" class="sidebar">
+                    <ul id="sidebar_link">
+                        <li><a href="index.html">Home</li></a>
+                        <li><a href="intro.html">My Intro</li></a>
+                        <li><a href="services.html">Services</li></a>
+                        <li><a href="images/Resume.pdf" target="_blank">Resume</a></li></a>
+                        <li><a href="blog.html">Blog</li></a>
+                        <li><a href="contact.html">Contact Me</li></a>
+                        <li><a href="linktree.html">Links</li></a>
+                    </ul>
+            </nav>
+        </div>
+        <!--==================Main========================-->
+        <div class="main" id="main">
+          
+            <button class="openbtn" onclick="toggleNav()">
+                <i class="fas fa-bars" id="hamburger"></i>
+            </button>
+            <div class="blogcontainer" id="is_blog_container">
+                <h1>Blogs  - Full Stack Developer</h1>
+                <div class="blogItem">
+                    <h2>Learn HTML and CSS</h2>
+                    <p>HTML and CSS are the rudimentary parts of web development. HTML gives a basic skeleton to the website, and CSS beautifies it. Knowledge of any specific domain in web development without knowing any HTML or CSS is impossible.</p>
+                    <a href="blog.html">Read More</a>
+                </div>
+
+                <div class="blogItem">
+                    <h2>Learn JavaScript</h2>
+                    <p>JavaScript is the scripting language most common and most widely used. Its implementation is super easy and understandable. You just need to learn few basic keywords, variable formatting and functions, and then you are good to go!</p>
+                    <a href="blog.html">Read More</a>
+                </div>
+
+                <div class="blogItem">
+
+                    <h2>Machine Learning and Artificial Intelligence</h2>
+                    <p>Artificial intelligence is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.</p>
+                    <a href="blog.html">Read More</a>
+                </div>
+
+                <div class="blogItem">
+
+                    <h2>Crytocurrency and Bitcoins</h2>
+                    <p>In computer science, a cryptocurrency, crypto-currency, or crypto is a digital currency that does not rely on any central authority to uphold or maintain it. Instead, transaction and ownership data is stored in a digital ledger using distributed ledger technology, typically a blockchain. However, when a cryptocurrency is issued by a single issuer or minted or created prior to issuance, it is generally considered centralized.</p>
+                    <a href="blog.html">Read More</a>
+                </div>
+
+                <div class="w3-center">
+                    <div class="w3-bar">
+                        <a href="#" class="w3-button">&laquo;</a>
+                        <a href="#" class="w3-button">1</a>
+                        <a href="#" class="w3-button">2</a>
+                        <a href="#" class="w3-button">3</a>
+                        <a href="#" class="w3-button">4</a>
+                        <a href="#" class="w3-button">&raquo;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <img src="images/btn-LB.png" alt="o" height="30px" onclick="myFunction()">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
